@@ -9,9 +9,20 @@
     background-color: rgb(108, 214, 218);
 }
 #nav1 {
-    background-color: rgb(81, 178, 182);
-   
+    background-color: rgb(81, 178, 182); 
 }
 #arrow {
     background-color: #fff;
+}
+address a {
+    color: purple;
+    text-decoration: none;
+}
+.nav1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-text {
+    color: #fff;
+    size: 40px;
 }
