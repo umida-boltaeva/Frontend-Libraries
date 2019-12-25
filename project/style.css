@@ -41,3 +41,13 @@ address a {
     padding-left: 520px;
     padding-bottom: 15px;
 }
+#website {
+    padding-top: 20px;
+}
+#comment-form {
+    padding-top: 20px;
+}
+#send-button {
+    padding-top: 20px;
+    color: rgb(211, 19, 83);
+}
