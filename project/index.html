@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -58,7 +60,7 @@
       <div class="row">
         <div class="col-md-12">
           <p class="navbar-text">
-            <i class="fa fa-compass"></i>TripWay
+            <i class="fa fa-compass"></i> TripWay
         </p>
         <ul class="nav nav-pills navbar-right">    
           <li role="presentation">
@@ -111,18 +113,17 @@
       
       <!-- <h6>Home<i class="fa fa-arrow-right"></i></h6> -->
       <div class="container">
-      <h1>Contacts</h1>
+      <h1 class="h1-contacts">Contacts</h1>
       <div class="row">
         <div class="col-md-12 img-parent">
-          <img src="https://liveinmelbourne.vic.gov.au/__data/assets/image/0003/1474104/Botanical-Gardens-Melbourne.png" class="img-responsive center-block"
-          alt="Melbourne Botanical Garden">
+          <img src="https://images.unsplash.com/photo-1495570967734-91450fb14f93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=800" class="img-responsive center-block" alt="Flowers">
         </div>
       </div>
     </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h3>Contact Info</h3>
+          <div class="col-md-5">
+            <h5 id="contact-head">Contact Info</h5>
             <p>I don't care if you are insecure at times, I still would want to be that person who is there to remind you that you are the most beautifulest person I have ever laid eyen on. I don't care if you are sad at times, because I still want to be that person who will hold you through it.</p>
                 <address>
                     <strong>The Company Name Inc.</strong><br>
@@ -132,8 +133,23 @@
                     E-mail: <a href="#">mail@demolink.org</a>
                 </address>  
           </div>
+          <div id="form-list">
+            <h4 class="form-head">Contact form</h4>
+            <div class="col-md-2">
+              <input type="text" class="form-control" placeholder="Your name">
+            </div>
+            <div class="col-md-2">
+              <input type="text" class="form-control" placeholder="Your email">
+            </div>
+            <div class="col-md-2">
+              <input type="text" class="form-control" placeholder="Phone number">
+            </div>
+          </div>
+        </div>
         </div>
       </div>
-    </div>
+          
+     
+    
 </body>
 </html>

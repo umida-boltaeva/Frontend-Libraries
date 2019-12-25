@@ -26,3 +26,18 @@ address a {
     color: #fff;
     size: 40px;
 }
+#contact-head {
+    border-bottom: solid 1px #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.h1-contacts {
+    padding-bottom: 40px;
+    font-weight: normal;
+}
+.form-head {
+    font-weight: normal;
+    margin-top: 35px;
+    padding-left: 520px;
+    padding-bottom: 15px;
+}
